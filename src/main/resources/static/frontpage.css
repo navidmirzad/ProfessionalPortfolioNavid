@@ -1,9 +1,9 @@
 body {
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 section {
-    height: 500px;
     background: white;
     border: solid black 1px;
 }
@@ -51,7 +51,7 @@ h2 {
 
 p {
     margin: 0;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .hero-area {
@@ -89,8 +89,9 @@ p {
 
 .sub-section {
     display: flex;
+    gap: 100px;
     justify-content: space-around;
-    padding: 60px;
+    padding: 30px;
 }
 
 .socials {
@@ -103,5 +104,25 @@ p {
 .social {
     margin: 20px;
 }
+
+.information p {
+    font-size: 25px;
+}
+
+.headshot {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .sub-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 60px;
+    }
+}
+
+
+
 
 

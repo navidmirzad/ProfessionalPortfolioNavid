@@ -5,7 +5,6 @@ body {
 
 section {
     background: white;
-    border: solid black 1px;
 }
 
 .hero {
@@ -54,6 +53,11 @@ p {
     font-weight: 400;
 }
 
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+}
+
 .hero-area {
     display: flex;
     height: 100%;
@@ -94,6 +98,13 @@ p {
     padding: 30px;
 }
 
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+}
+
 .socials {
     display: flex;
     gap: 10px;
@@ -122,6 +133,21 @@ p {
     }
 }
 
+.project-card {
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-image {
+    width: 300px;
+
+}
 
 
 

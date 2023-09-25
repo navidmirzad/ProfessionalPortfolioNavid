@@ -14,13 +14,6 @@ section {
     font-size: 40px;
 }
 
-footer {
-    height: 500px;
-
-
-    background-color: black;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -51,11 +44,6 @@ h2 {
 p {
     margin: 0;
     font-weight: 400;
-}
-
-.subtext {
-    font-size: 15px;
-    font-weight: 300;
 }
 
 .hero-area {
@@ -144,9 +132,48 @@ p {
     justify-content: space-around;
 }
 
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
 .project-image {
     width: 300px;
+}
 
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #ef744b;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    background-color: lightgray;
+    padding: 80px;
+    text-align: center;
+}
+
+.footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer p {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 15px;
 }
 
 
